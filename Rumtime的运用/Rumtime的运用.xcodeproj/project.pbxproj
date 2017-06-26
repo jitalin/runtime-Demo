@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC56F36B1DD1618100D0AA0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC56F36A1DD1618100D0AA0B /* main.m */; };
+		EC56F36E1DD1618100D0AA0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC56F36D1DD1618100D0AA0B /* AppDelegate.m */; };
+		EC56F3711DD1618100D0AA0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC56F3701DD1618100D0AA0B /* ViewController.m */; };
+		EC56F3741DD1618100D0AA0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC56F3721DD1618100D0AA0B /* Main.storyboard */; };
+		EC56F3761DD1618100D0AA0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC56F3751DD1618100D0AA0B /* Assets.xcassets */; };
+		EC56F3791DD1618100D0AA0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC56F3771DD1618100D0AA0B /* LaunchScreen.storyboard */; };
+		EC56F3841DD1618200D0AA0B /* Rumtime___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC56F3831DD1618200D0AA0B /* Rumtime___Tests.m */; };
+		EC56F38F1DD1618200D0AA0B /* Rumtime___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC56F38E1DD1618200D0AA0B /* Rumtime___UITests.m */; };
+		EC56F39E1DD166BC00D0AA0B /* NSArray+Name.m in Sources */ = {isa = PBXBuildFile; fileRef = EC56F39D1DD166BC00D0AA0B /* NSArray+Name.m */; };
+		EC56F3A11DD1703200D0AA0B /* UIImage+MethodExchange.m in Sources */ = {isa = PBXBuildFile; fileRef = EC56F3A01DD1703200D0AA0B /* UIImage+MethodExchange.m */; };
+		EC56F3A71DD178D900D0AA0B /* NSDictionary+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = EC56F3A61DD178D900D0AA0B /* NSDictionary+Model.m */; };
+		EC56F3AA1DD17A5500D0AA0B /* NSDictionary+Model_Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = EC56F3A91DD17A5500D0AA0B /* NSDictionary+Model_Runtime.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC56F3801DD1618200D0AA0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC56F35E1DD1618100D0AA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC56F3651DD1618100D0AA0B;
+			remoteInfo = "Rumtime的运用";
+		};
+		EC56F38B1DD1618200D0AA0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC56F35E1DD1618100D0AA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC56F3651DD1618100D0AA0B;
+			remoteInfo = "Rumtime的运用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC56F3661DD1618100D0AA0B /* Rumtime的运用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rumtime的运用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC56F36A1DD1618100D0AA0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC56F36C1DD1618100D0AA0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC56F36D1DD1618100D0AA0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC56F36F1DD1618100D0AA0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC56F3701DD1618100D0AA0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC56F3731DD1618100D0AA0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC56F3751DD1618100D0AA0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC56F3781DD1618100D0AA0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC56F37A1DD1618100D0AA0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC56F37F1DD1618200D0AA0B /* Rumtime的运用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rumtime的运用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC56F3831DD1618200D0AA0B /* Rumtime___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Rumtime___Tests.m"; sourceTree = "<group>"; };
+		EC56F3851DD1618200D0AA0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC56F38A1DD1618200D0AA0B /* Rumtime的运用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rumtime的运用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC56F38E1DD1618200D0AA0B /* Rumtime___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Rumtime___UITests.m"; sourceTree = "<group>"; };
+		EC56F3901DD1618200D0AA0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC56F39C1DD166BC00D0AA0B /* NSArray+Name.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Name.h"; sourceTree = "<group>"; };
+		EC56F39D1DD166BC00D0AA0B /* NSArray+Name.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Name.m"; sourceTree = "<group>"; };
+		EC56F39F1DD1703200D0AA0B /* UIImage+MethodExchange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MethodExchange.h"; sourceTree = "<group>"; };
+		EC56F3A01DD1703200D0AA0B /* UIImage+MethodExchange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MethodExchange.m"; sourceTree = "<group>"; };
+		EC56F3A51DD178D900D0AA0B /* NSDictionary+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Model.h"; sourceTree = "<group>"; };
+		EC56F3A61DD178D900D0AA0B /* NSDictionary+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Model.m"; sourceTree = "<group>"; };
+		EC56F3A81DD17A5500D0AA0B /* NSDictionary+Model_Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Model_Runtime.h"; sourceTree = "<group>"; };
+		EC56F3A91DD17A5500D0AA0B /* NSDictionary+Model_Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Model_Runtime.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC56F3631DD1618100D0AA0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC56F37C1DD1618200D0AA0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC56F3871DD1618200D0AA0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC56F35D1DD1618100D0AA0B = {
+			isa = PBXGroup;
+			children = (
+				EC56F3681DD1618100D0AA0B /* Rumtime的运用 */,
+				EC56F3821DD1618200D0AA0B /* Rumtime的运用Tests */,
+				EC56F38D1DD1618200D0AA0B /* Rumtime的运用UITests */,
+				EC56F3671DD1618100D0AA0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC56F3671DD1618100D0AA0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC56F3661DD1618100D0AA0B /* Rumtime的运用.app */,
+				EC56F37F1DD1618200D0AA0B /* Rumtime的运用Tests.xctest */,
+				EC56F38A1DD1618200D0AA0B /* Rumtime的运用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC56F3681DD1618100D0AA0B /* Rumtime的运用 */ = {
+			isa = PBXGroup;
+			children = (
+				EC56F36C1DD1618100D0AA0B /* AppDelegate.h */,
+				EC56F36D1DD1618100D0AA0B /* AppDelegate.m */,
+				EC56F36F1DD1618100D0AA0B /* ViewController.h */,
+				EC56F3701DD1618100D0AA0B /* ViewController.m */,
+				EC56F39C1DD166BC00D0AA0B /* NSArray+Name.h */,
+				EC56F39D1DD166BC00D0AA0B /* NSArray+Name.m */,
+				EC56F39F1DD1703200D0AA0B /* UIImage+MethodExchange.h */,
+				EC56F3A01DD1703200D0AA0B /* UIImage+MethodExchange.m */,
+				EC56F3A51DD178D900D0AA0B /* NSDictionary+Model.h */,
+				EC56F3A61DD178D900D0AA0B /* NSDictionary+Model.m */,
+				EC56F3A81DD17A5500D0AA0B /* NSDictionary+Model_Runtime.h */,
+				EC56F3A91DD17A5500D0AA0B /* NSDictionary+Model_Runtime.m */,
+				EC56F3721DD1618100D0AA0B /* Main.storyboard */,
+				EC56F3751DD1618100D0AA0B /* Assets.xcassets */,
+				EC56F3771DD1618100D0AA0B /* LaunchScreen.storyboard */,
+				EC56F37A1DD1618100D0AA0B /* Info.plist */,
+				EC56F3691DD1618100D0AA0B /* Supporting Files */,
+			);
+			path = "Rumtime的运用";
+			sourceTree = "<group>";
+		};
+		EC56F3691DD1618100D0AA0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC56F36A1DD1618100D0AA0B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC56F3821DD1618200D0AA0B /* Rumtime的运用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC56F3831DD1618200D0AA0B /* Rumtime___Tests.m */,
+				EC56F3851DD1618200D0AA0B /* Info.plist */,
+			);
+			path = "Rumtime的运用Tests";
+			sourceTree = "<group>";
+		};
+		EC56F38D1DD1618200D0AA0B /* Rumtime的运用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC56F38E1DD1618200D0AA0B /* Rumtime___UITests.m */,
+				EC56F3901DD1618200D0AA0B /* Info.plist */,
+			);
+			path = "Rumtime的运用UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC56F3651DD1618100D0AA0B /* Rumtime的运用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC56F3931DD1618200D0AA0B /* Build configuration list for PBXNativeTarget "Rumtime的运用" */;
+			buildPhases = (
+				EC56F3621DD1618100D0AA0B /* Sources */,
+				EC56F3631DD1618100D0AA0B /* Frameworks */,
+				EC56F3641DD1618100D0AA0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rumtime的运用";
+			productName = "Rumtime的运用";
+			productReference = EC56F3661DD1618100D0AA0B /* Rumtime的运用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC56F37E1DD1618200D0AA0B /* Rumtime的运用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC56F3961DD1618200D0AA0B /* Build configuration list for PBXNativeTarget "Rumtime的运用Tests" */;
+			buildPhases = (
+				EC56F37B1DD1618200D0AA0B /* Sources */,
+				EC56F37C1DD1618200D0AA0B /* Frameworks */,
+				EC56F37D1DD1618200D0AA0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC56F3811DD1618200D0AA0B /* PBXTargetDependency */,
+			);
+			name = "Rumtime的运用Tests";
+			productName = "Rumtime的运用Tests";
+			productReference = EC56F37F1DD1618200D0AA0B /* Rumtime的运用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC56F3891DD1618200D0AA0B /* Rumtime的运用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC56F3991DD1618200D0AA0B /* Build configuration list for PBXNativeTarget "Rumtime的运用UITests" */;
+			buildPhases = (
+				EC56F3861DD1618200D0AA0B /* Sources */,
+				EC56F3871DD1618200D0AA0B /* Frameworks */,
+				EC56F3881DD1618200D0AA0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC56F38C1DD1618200D0AA0B /* PBXTargetDependency */,
+			);
+			name = "Rumtime的运用UITests";
+			productName = "Rumtime的运用UITests";
+			productReference = EC56F38A1DD1618200D0AA0B /* Rumtime的运用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC56F35E1DD1618100D0AA0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "高飞";
+				TargetAttributes = {
+					EC56F3651DD1618100D0AA0B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EC56F37E1DD1618200D0AA0B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EC56F3651DD1618100D0AA0B;
+					};
+					EC56F3891DD1618200D0AA0B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EC56F3651DD1618100D0AA0B;
+					};
+				};
+			};
+			buildConfigurationList = EC56F3611DD1618100D0AA0B /* Build configuration list for PBXProject "Rumtime的运用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC56F35D1DD1618100D0AA0B;
+			productRefGroup = EC56F3671DD1618100D0AA0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC56F3651DD1618100D0AA0B /* Rumtime的运用 */,
+				EC56F37E1DD1618200D0AA0B /* Rumtime的运用Tests */,
+				EC56F3891DD1618200D0AA0B /* Rumtime的运用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC56F3641DD1618100D0AA0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC56F3791DD1618100D0AA0B /* LaunchScreen.storyboard in Resources */,
+				EC56F3761DD1618100D0AA0B /* Assets.xcassets in Resources */,
+				EC56F3741DD1618100D0AA0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC56F37D1DD1618200D0AA0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC56F3881DD1618200D0AA0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC56F3621DD1618100D0AA0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC56F3711DD1618100D0AA0B /* ViewController.m in Sources */,
+				EC56F3AA1DD17A5500D0AA0B /* NSDictionary+Model_Runtime.m in Sources */,
+				EC56F3A71DD178D900D0AA0B /* NSDictionary+Model.m in Sources */,
+				EC56F39E1DD166BC00D0AA0B /* NSArray+Name.m in Sources */,
+				EC56F3A11DD1703200D0AA0B /* UIImage+MethodExchange.m in Sources */,
+				EC56F36E1DD1618100D0AA0B /* AppDelegate.m in Sources */,
+				EC56F36B1DD1618100D0AA0B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC56F37B1DD1618200D0AA0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC56F3841DD1618200D0AA0B /* Rumtime___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC56F3861DD1618200D0AA0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC56F38F1DD1618200D0AA0B /* Rumtime___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC56F3811DD1618200D0AA0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC56F3651DD1618100D0AA0B /* Rumtime的运用 */;
+			targetProxy = EC56F3801DD1618200D0AA0B /* PBXContainerItemProxy */;
+		};
+		EC56F38C1DD1618200D0AA0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC56F3651DD1618100D0AA0B /* Rumtime的运用 */;
+			targetProxy = EC56F38B1DD1618200D0AA0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC56F3721DD1618100D0AA0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC56F3731DD1618100D0AA0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC56F3771DD1618100D0AA0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC56F3781DD1618100D0AA0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC56F3911DD1618200D0AA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC56F3921DD1618200D0AA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC56F3941DD1618200D0AA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Rumtime的运用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sunyard.Rumtime---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC56F3951DD1618200D0AA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Rumtime的运用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sunyard.Rumtime---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC56F3971DD1618200D0AA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Rumtime的运用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sunyard.Rumtime---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rumtime的运用.app/Rumtime的运用";
+			};
+			name = Debug;
+		};
+		EC56F3981DD1618200D0AA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Rumtime的运用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sunyard.Rumtime---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rumtime的运用.app/Rumtime的运用";
+			};
+			name = Release;
+		};
+		EC56F39A1DD1618200D0AA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Rumtime的运用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sunyard.Rumtime---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Rumtime的运用";
+			};
+			name = Debug;
+		};
+		EC56F39B1DD1618200D0AA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Rumtime的运用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sunyard.Rumtime---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Rumtime的运用";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC56F3611DD1618100D0AA0B /* Build configuration list for PBXProject "Rumtime的运用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC56F3911DD1618200D0AA0B /* Debug */,
+				EC56F3921DD1618200D0AA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC56F3931DD1618200D0AA0B /* Build configuration list for PBXNativeTarget "Rumtime的运用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC56F3941DD1618200D0AA0B /* Debug */,
+				EC56F3951DD1618200D0AA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC56F3961DD1618200D0AA0B /* Build configuration list for PBXNativeTarget "Rumtime的运用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC56F3971DD1618200D0AA0B /* Debug */,
+				EC56F3981DD1618200D0AA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC56F3991DD1618200D0AA0B /* Build configuration list for PBXNativeTarget "Rumtime的运用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC56F39A1DD1618200D0AA0B /* Debug */,
+				EC56F39B1DD1618200D0AA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC56F35E1DD1618100D0AA0B /* Project object */;
+}
